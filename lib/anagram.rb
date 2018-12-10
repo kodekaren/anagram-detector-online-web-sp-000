@@ -3,4 +3,8 @@ attr_accessor :word
   def initialize(word)
     @word = word
   end
+  def match(array)
+ word.split array.split
+  end
+
 end# Your code goes here!
